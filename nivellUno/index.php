@@ -6,10 +6,10 @@
     define("name","Myrella Almeida");
     $hello   = "Hello World!";
     $curso   = "Aquest és el curso de PHP";
-    $x       = 5;
-    $y       = 10;
-    $n       = 2.5;
-    $m       = 7.5;
+    $X       = 5;
+    $Y       = 10;
+    $N       = 2.5;
+    $M       = 7.5;
 
     echo '<h3> Ejercicio 1 - Create Variables </h3>';
     echo 'La variable $number es de tipo: '.gettype($number)." y tiene valor: $number"."<br>"; 
@@ -24,11 +24,16 @@
     echo strrev($hello)."<br>";
     echo $hello." ".$curso."<br>";
     echo "<h3>"."Ejercicio 3 -  Operators PHP"."</h3>";
-    echo 'La variable $x tiene valor: '.$x.' y La variable $y tiene valor: '.$y."<br>";
-    echo 'La suma de $x + $y es igual a: '.$x+$y."<br>";
-    echo 'La resta de $x - $y es igual a: '.$x-$y."<br>";
-    echo 'El producto de $x * $y es igual a: '.$x*$y."<br>";
-    echo 'El modulo de $x por $y es igual a: '.$x%$y."<br>";
+    echo 'La variable $X tiene valor: '.$X.' y La variable $Y tiene valor: '.$Y."<br>";
+    echo 'La suma de $X + $Y es igual a: '.$X+$Y."<br>";
+    echo 'La resta de $X - $Y es igual a: '.$X-$Y."<br>";
+    echo 'El producto de $X * $Y es igual a: '.$X*$Y."<br>";
+    echo 'El modulo de $X por $Y es igual a: '.$X%$Y."<br>";
+    echo 'La variable $N tiene valor: '.$N.' y La variable $M tiene valor: '.$M."<br>";
+    echo 'La suma de $N + $M es igual a: '.$N+$M."<br>";
+    echo 'La resta de $N - $M es igual a: '.$N-$M."<br>";
+    echo 'El producto de $N * $M es igual a: '.$N*$M."<br>";
+    echo 'El modulo de $N por $M es igual a: '.$N%$M."<br>";
     
     
 
