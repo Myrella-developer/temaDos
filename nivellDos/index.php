@@ -36,8 +36,24 @@
                         ?>
                     </div>
                     <div class="box-exercise2">
-                        
-                        
+                        <h3>Ejercicio 2 Tienda de Chuches </h3>
+                        <?php
+                            function anadirChocolate($cantChocolate){
+                               return  $cantChocolate * 1;
+                            }
+                            $subtotal1 = anadirChocolate(2);
+
+                            function anadirChicle($cantChicle){
+                               return $cantChicle * 0.50;
+                            }
+                            $subtotal2 = anadirChicle(1);
+
+                            function anadirCaramelos($cantCaramelos){
+                                return $cantCaramelos * 1.5;
+                             }
+                            $subtotal3 = anadirCaramelos(1);
+                            echo 'Total a pagar: '.$total = $subtotal1+$subtotal2+$subtotal3;
+                        ?>
                     </div>
                         
                 </div>
