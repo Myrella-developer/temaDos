@@ -28,10 +28,11 @@
                                     $costoLlamada = ($duracionLlamada - $duracionMin) * $costoMax;
                                     $costoTotal = $costoMin + $costoLlamada;
                                     }
-                                return $costoTotal;
+                                return $costoTotal.'€ por los '.$duracionLlamada.' minutos de llamada Telefónica';
+                                
                             }
-
-                           echo 'El costo de la llamada por minuto es: '.$totalPagar = llamadaTelefonica(4).'€';
+                        
+                           echo 'El costo es: '.$totalPagar = llamadaTelefonica(7); 
                         ?>
                     </div>
                     <div class="box-exercise2">
