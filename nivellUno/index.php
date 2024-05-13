@@ -251,7 +251,7 @@
                 </div>
             </section>
             <footer class="footer">
-                <p>Myrella Almeida - Curso FullStack PHP - IT ACADEMY</p>
+                <p>&#169;Myrella Almeida - Curso FullStack PHP - IT ACADEMY</p>
             </footer>
         </div>       
     </body>
