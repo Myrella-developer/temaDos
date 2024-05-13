@@ -16,7 +16,7 @@
                     <div class="box-exercise2">
                         <h3>Ejercicio 1 if...else...</h3>
                         <?php
-                            function llamadaTelefonica($duracionLlamada){
+                            function llamadaTelefonica(int $duracionLlamada){
                                 $duracionMin = 3;
                                 $costoMin = 0.10;
                                 $costoMax = 0.5;
@@ -38,17 +38,17 @@
                     <div class="box-exercise2">
                         <h3>Ejercicio 2 Tienda de Chuches </h3>
                         <?php
-                            function anadirChocolate($cantChocolate){
+                            function anadirChocolate(int $cantChocolate){
                                return  $cantChocolate * 1;
                             }
                             $subtotal1 = anadirChocolate(2);
 
-                            function anadirChicle($cantChicle){
+                            function anadirChicle(int $cantChicle){
                                return $cantChicle * 0.50;
                             }
                             $subtotal2 = anadirChicle(1);
 
-                            function anadirCaramelos($cantCaramelos){
+                            function anadirCaramelos(int $cantCaramelos){
                                 return $cantCaramelos * 1.5;
                              }
                             $subtotal3 = anadirCaramelos(1);
