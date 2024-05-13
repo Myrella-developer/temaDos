@@ -54,7 +54,7 @@
                     <div class="box-exercise2">
                         <h3>Ejercicio 1.2 - Constantes</h3>
                         <?php
-                            const NAME = "Myrella Almeida";
+                            define("NAME","Myrella Almeida");
                             echo '<h1 class="titulo">'.NAME.'</h1><br>';
                         ?>
                     </div>
@@ -177,7 +177,7 @@
                     <div class="box-exercise2">
                         <h3>Ejercicio 3.b - Calculadora con Funciones</h3>
                         <?php
-                            function calculator ($n1, $n2, $operator) {
+                            function calculator (int $n1, int $n2, string $operator) {
 
                                 switch($operator){
                                     case 'suma':
@@ -206,9 +206,9 @@
                     <div class="box-exercise2">
                         <h3>Ejercicio 4 - Función con Bucle For</h3>
                         <?php
-                            function imprimirNumeros($number = 10, $contador = 1){
-                                echo 'Imprimindo los numeros de '.$contador.' en '.$contador.' --> ';
-                                for ($i = 0; $i <= $number; $i+= $contador){
+                            function imprimirNumeros(int $number = 10, int $incremento = 1){
+                                echo 'Imprimindo los numeros de '.$incremento.' en '.$incremento.' --> ';
+                                for ($i = 0; $i <= $number; $i+= $incremento){
                                     print $i.' ';
                                 }
                             }
@@ -219,7 +219,7 @@
                     <div class="box-exercise2">
                         <h3>Ejercicio 5 - Función con Condicional</h3>
                         <?php
-                            function calculaNotaAlumno($nota) {
+                            function calculaNotaAlumno(int $nota) {
                                 if($nota >= 60){
                                     print "Alumno obtuve $nota% --> Grado de primera División<br>";
                                 } else if($nota >= 45 && $nota <= 59){
@@ -230,7 +230,7 @@
                                     print "Alumno obtuve $nota% --> Reprovado<br>";
                                 }
                             }
-                            $gradoAlumno = calculaNotaAlumno(80);   
+                            $gradoAlumno = calculaNotaAlumno(29);   
                         ?>
                     </div>
                     <div class="box-exercise2">
